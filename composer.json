@@ -1,0 +1,24 @@
+{
+    "name": "lukos/yii2-openbadge",
+    "description": "OpenBadges module for Yii2",
+    "type": "library",
+    "keywords": ["openbadge","yii2","module"],
+    "homepage": "https://lukieb.blogspot.co.uk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Briner",
+            "email": "lukiebriner@gmail.com",
+            "homepage": "https://lukieb.blogspot.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+		"yiisoft/yii2": ">=2.0.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": { "lukos\\openbadge\\": "src/" }
+    }
+}
